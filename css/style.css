@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Signika&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Signika', sans-serif;
+}
+a{
+	text-decoration: none;
+	font-size: 24px;
+}
+ul{
+	list-style-type: none;
+}
+p, .opis, .info ul li a, .table, label{
+	font-size:20px; 
+}
+h3{
+	font-size: 25px;
+}
+.cistac{
+	clear: both;
+}
+/*Pozadinske boje*/
+.header{
+	background-color: rgb(250, 232, 236);
+}
+#sadrzaj, #conteiner, .footer, .dugme, .copy{
+	background-color: rgba(0,0,0,0.8);
+}
+/*Boja slova*/
+h1, .navigacija ul li a, .cenovnik h3, .table, #opisAutor, option, optgroup, #tabela tr, label{
+	color:rgba(0,0,0,0.7);
+}
+h3, .sadrzaj1, .sadrzaj1 h1, #conteiner h1, .info a, .dugme, .copy{
+	color: rgb(250, 232, 236);
+}
+/*Border-radius*/
+#sadrzaj, #image1, #image2, #image3, .opis, #profil img{
+	border-radius: 8px;
+}
+.logo a {
+	color: rgba(0,0,0,0.7);
+	font-family: 'Caveat', sans-serif;
+	font-size: 50px;
+}
+h1{
+	font-size: 50px;	
+}
+/*Text-align*/
+h3, .logo, #conteiner h1, #podnozje h1, .opis, .info, .cenovnik, .slike h1, #autorSlika h1, #h{
+	text-align: center;
+}
+.header{
+	width: inherit;
+	height: 70px;
+	margin: 0px auto;
+}
+.logo{
+	float: left;
+	width: 40%;
+	position: absolute;
+	top: 5px;
+}
+.prvoSlovo, #tabela th, label{
+	 color: #cd5c5c;
+}
+.navigacija{
+	float: right;
+	position: relative;
+	top: 25px;
+	width: 60%;
+}
+.navigacija ul li{
+	display: inline;
+	margin:0px 10px;
+}
+.navigacija ul li a{
+	text-transform: uppercase;
+}
+.navigacija ul li a:hover{
+	color: rgba(0,0,0,0.4);
+	border-bottom: 2px solid white;
+}
+#sredina{
+	width: 100%;
+	background-image: url("../images/pocetna.jpg");
+	background-repeat:  no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed; 
+}
+.padding-top-bottom-300{
+	padding-top: 250px;
+	padding-bottom: 300px;
+}
+#sadrzaj{
+	width:25%;
+	margin:0px auto;
+}
+.sadrzaj1{
+	letter-spacing:6px;
+    line-height:2;
+    text-transform: uppercase;
+    text-align: center;
+  	padding:20px;
+}
+#conteiner{
+	width: inherit;
+	padding: 30px;
+}
+#conteiner h1{
+	margin-bottom: 20px;
+}
+.levaKolona{
+	width: 65%;
+	margin: 0px auto;
+	text-align:justify;  
+	color: rgb(250, 232, 236);
+	padding:15px;
+	letter-spacing:1px;
+    line-height:1.3;
+}
+#a1{
+	-webkit-column-count:2;
+	column-gap: 50px;
+}
+#podnozje h1{
+	margin-bottom:20px;
+}
+#podnozje {
+	width: 90%;
+	margin-bottom: 10px;
+	padding: 25px 40px;
+	height: 330px;
+	margin: 0px auto;
+}
+.small-image {
+	width: 25%;
+	float: left;
+	height: 250px;
+	margin-left:90px;
+	background-size: cover;
+	background-position: center;
+	transition: width 2s, height 2s, transform 3s;
+}
+.small-image:hover{
+	transform: scale(1.1,1.1);
+	transform:translate(10px,10px,10px);
+}
+#image1{
+	background-image: url('../images/sminka1.jpg');
+}
+#image3{
+	background-image: url('../images/slika6.jpg');
+	margin-right: 5px;
+}
+#image2{
+	background-image: url('../images/nokti1.jpg');
+}
+.opis{
+	margin:100px auto;
+	background-color: rgba(255,255,255,0.7);
+	border:1px dashed #cd5c5c;
+	width: 100px;
+}
+.opis a{
+	color: #cd5c5c;;
+}
+.footer{
+	width:inherit;
+	display: flex;
+} 
+.info{
+	padding: 15px;
+	flex:1 ;
+	margin-left: 60px; 
+}
+.info ul li{
+	margin-bottom: 15px;
+}
+.info h3{
+	padding: 5px;
+	margin-bottom: 5px;
+}
+.copy{
+	text-align: center;
+	padding: 10px;
+}
+/*Tabela-cenovnik-nase usluge*/
+.cenovnik{
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px 0px;
+}
+.cenovnik h3{
+	padding: 25px 0px;
+}
+.table{
+	margin: 0px auto;
+	width: 80%;
+	background-color: #fff;
+	border-collapse: collapse;
+}
+.table td, .table th{
+	padding: 15px;
+ 	vertical-align: top;
+}
+ #tabela td, #tabela th{
+	padding: 23px;
+ 	vertical-align: top;
+}
+ #tabela td, #tabela th{
+ 	border-top: 1px solid rgba(0,0,0,0.8);
+ }
+tr{
+	    line-height: 1.5;
+	    text-align: left;
+} 
+.table-striped > tbody > tr:nth-child(2n + 1)> td, .table-striped > tbody > tr:nth-child(2n + 1)> th {
+    background-color: rgb(250, 232, 236);
+}
+.table-striped > tbody > tr:nth-child(2n + 2):hover > td, .table-striped > tbody > tr:nth-child(2n + 2):hover > th 
+{
+	background-color: rgb(251, 232, 236);
+}
+tbody{
+	display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+/*Galerija*/
+.slike{
+	width: inherit;
+}
+.slike-galerije img{
+  filter: grayscale(80%);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.slike-galerije img:hover{
+  filter: none;
+}
+.slike-galerije {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 17px;
+  margin:12px;
+  width: 65%;
+  margin: 0px auto;
+  margin-bottom: 12px;
+}
+.slike h1, #autorSlika h1, .kontakt-slika , #h h1{
+	padding: 15px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/*Autor*/
+#autorSlika{
+	width: 50%;
+	padding: 10px;
+	margin: 0px auto;
+	height: 500px;
+}
+#profil{
+	float: left;
+}
+#profil{
+	padding: 20px;
+}
+#opisAutor {
+	margin-top: 100px;
+	float: right;
+}
+/*Kontakt*/
+.kontakt label{
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+.kontakt input{
+	display: block;
+	border: 1px solid rgba(0,0,0,0.8);
+  width: 340px;
+  outline: 0;
+  padding: 10px 15px;
+  font-size: 17px;
+  border-radius: 8px;
+}
+.kontakt textarea{
+  display: inline-block;
+  border-radius: 8px;
+  width: 340px;
+  padding: 10px 15px;
+  font-size: 17px;
+  border: 1px solid rgba(0,0,0,0.8);
+}
+.kontakt select{
+	border-radius: 8px;
+  width: 370px;
+  padding: 10px 15px;
+  font-size: 17px;
+  border: 1px solid rgba(0,0,0,0.8);
+}
+.dugme{
+  outline: 0;
+  border: 1; 
+  font-size: 17px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width:370px;
+  border: 1px solid rgba(0,0,0,0.8);
+  margin:30px 0px;
+}
+.kontakt{
+	margin-left: 150px;
+ 	display: flex;
+ }
+.kontakt-slika{
+  width: 50%;
+  padding: 50px;
+  margin-top: 120px;
+}

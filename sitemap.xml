@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schmemas/sitemap/0.9">
+	<url>
+		<loc>https://kristina552.github.io/cocoloco/index.html</loc>
+		<lastmod>2020-12-03</lastmod>
+		<changefreq>monthly</changefreq>
+		<prioriry>0.5</prioriry>
+	</url>
+	<url>
+		<loc>https://kristina552.github.io/cocoloco/usluge.html</loc>
+		<lastmod>2020-12-03</lastmod>
+		<changefreq>daily</changefreq>
+		<prioriry>0.8</prioriry>
+	</url>
+	<url>
+		<loc>https://kristina552.github.io/cocoloco/galerija.html</loc>
+		<lastmod>2020-11-25</lastmod>
+		<changefreq>monthly</changefreq>
+		<prioriry>0.5</prioriry>
+	</url>
+	<url>
+		<loc>https://kristina552.github.io/cocoloco/kontakt.html</loc>
+		<lastmod>2020-11-25</lastmod>
+		<changefreq>monthly</changefreq>
+		<prioriry>0.5</prioriry>
+	</url>
+	<url>
+		<loc>https://kristina552.github.io/cocoloco/autor.html</loc>
+		<lastmod>2020-11-25</lastmod>
+		<changefreq>monthly</changefreq>
+		<prioriry>0.5</prioriry>
+	</url>
+</urlset>
